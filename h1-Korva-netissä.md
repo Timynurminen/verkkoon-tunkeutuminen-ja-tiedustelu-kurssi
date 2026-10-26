@@ -106,4 +106,11 @@ Määränpään saisi selville muista lähteistä, esimerkiksi lentoyhtiön aika
 
 **Lähteet**
 - [ADS-B Exchange](https://globe.adsbexchange.com/)
-- 
+- [Traficom: Radiotaajuusmääräys 4 AD/2023M, taajuusjakotaulukko](https://www.traficom.fi/sites/default/files/media/regulation/Radiotaajuusm%C3%A4%C3%A4r%C3%A4ys%204AD2023M.pdf) (AM-radio, 526,5–1606,5 kHz)
+- [Traficom: Ilmailun navigaatio- ja valvontalaitestrategia (luonnos, päivitetty 2020)](https://traficom.fi/sites/default/files/media/regulation/Traficom%20Ilmailun%20navigaatio-%20ja%20valvontalaitestrategia_%20luonnos_%20p%C3%A4ivitetty%202020.pdf) (ADS-B, 1090 MHz)
+- [ITU: Frequency Assignment Plans (GE84)](https://www.itu.int/en/ITU-R/terrestrial/broadcast/plans/pages/plans.aspx) (FM-radio, 87,5–108 MHz)
+- [ETSI EN 300 328 V2.2.2 (Bureau Veritas, tiivistelmä)](https://www.cps.bureauveritas.com/newsroom/etsi-en-300-328-v222-will-become-mandatory-6th-august-2021) (Wi-Fi, 2400–2483,5 MHz)
+- [Jyväskylän yliopisto: Säteilyn ja aineen vuorovaikutus](https://users.jyu.fi/~hejajama/ipho_valmennusmateriaali/s%c3%a4teily/s_teilyn_ja_aineen_vuorovaikutus.pdf) (näkyvä valo, röntgen)
+- [WebSDR](http://websdr.org/)
+- [Short-wave.info](https://www.short-wave.info/index.php)
+- [University of Twente WebSDR](http://websdr.ewi.utwente.nl:8901/)
