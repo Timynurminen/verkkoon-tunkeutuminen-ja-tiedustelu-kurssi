@@ -20,6 +20,52 @@ Siksi matalien taajuksien antennit ovat isoja ja korkeiden pieniä.
 - [Jyväskylän yliopisto: Säteilyn ja aineen vuorovaikutus](https://users.jyu.fi/~hejajama/ipho_valmennusmateriaali/s%c3%a4teily/s_teilyn_ja_aineen_vuorovaikutus.pdf) (näkyvä valo, röntgen)
 
 
+## a) WebSDR
+
+### Vastaanottimen valinta
+
+Avasin sivun websdr.org, jossa on lista ympäri maailmaa sijaitsevista ohjelmaradioista (SDR, software defined radio), joita voi kuunnella selaimella. Valitsin Twenten yliopiston lyhytaaltovastaanottimen Enschedessä, Alankomaissa.
+
+
+<img width="1270" height="1285" alt="image" src="https://github.com/user-attachments/assets/399a8aab-0a5e-45c4-a097-a5651b8c56e0" />
+
+### Kanavan etsiminen
+
+1. Klikkailin vesiputousnäkymästä vahvoja signaaleja. Kirkkaat pystyviivat ovat lähettimiä.
+2. Kokeilin eri modulaatioita ja huomasin, että AMsync-tilassa 16 metrin kaistalta kuului selkeä AM-lähetys.
+3. Kun kanava löytyi, vaihdoin tavalliseen AM-tilaan. Kaiuttimista kuului selkeää puhetta, mutta en saanut kielestä kiinni.
+4. Pyöristin taajuuden tasan 17485.00 khz:iin, koska yleisradioasemat ovat 5 khz:n välein.
+
+Signaalin voimakkuus oli -53,5 dBm.
+
+### Aseman tunnistus
+
+Hain taajuuden short-wave.info palvelusta. 
+
+<img width="744" height="96" alt="image" src="https://github.com/user-attachments/assets/6b112589-405a-4f1e-a8eb-f0af6fdb90b1" />
+
+Tuloksena:
+
+<img width="765" height="31" alt="image" src="https://github.com/user-attachments/assets/a4db9bc3-6df8-4276-a514-712f2103fa2f" />
+
+**Oma huomio:** Mielenkiintoista oli, että arabiankielinen radiolähetys tulee Kiinasta. Lähetys oli suunnattu arabiankielisille kuuntelijoille, mutta se kuului silti hyvin Alankomaissa asti.
+
+## b) Moduwhat?
+
+Käytin samaa Twenten yliopiston WebSDR-vastaanotinta kuin a-kohdassa.
+
+### Kanavan etsiminen
+
+1. Kokeilin ensin 20 metrin kaistaa USB-tilassa, mutta en löytänyt sieltä oikein mitään.
+2. Siirryin 40 metrin kaistalle (7100-7200 khz) ja valitsin LSB-tilan.
+3. Klikkailin vesiputouksesta signaaleja ja säädin taajuutta.
+4. Taajuudelta 7150 khz kuului puhetta (varmaankin espanjaa).
+
+### Tulokset:
+
+<img width="1147" height="586" alt="image" src="https://github.com/user-attachments/assets/cec1f1a2-6552-4a29-9292-fdc4e31668d9" />
+
+
 ## c) ADS-B.
 
 Avasin ADS-B Exchange -palvelun (https://globe.adsbexchange.com/) ja valitsin Helsingistä lähteneen Finnairin koneen.
