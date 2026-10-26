@@ -61,6 +61,9 @@ Käytin samaa Twenten yliopiston WebSDR-vastaanotinta kuin a-kohdassa.
 3. Klikkailin vesiputouksesta signaaleja ja säädin taajuutta.
 4. Taajuudelta 7150 khz kuului puhetta (varmaankin espanjaa).
 
+<img width="1133" height="674" alt="image" src="https://github.com/user-attachments/assets/ae90b989-d92a-4be0-9aac-fdf7685d2133" />
+
+
 ### Tulokset:
 
 <img width="1147" height="586" alt="image" src="https://github.com/user-attachments/assets/cec1f1a2-6552-4a29-9292-fdc4e31668d9" />
