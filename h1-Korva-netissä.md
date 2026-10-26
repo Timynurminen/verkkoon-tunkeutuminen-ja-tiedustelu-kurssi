@@ -38,6 +38,9 @@ Avasin sivun websdr.org, jossa on lista ympäri maailmaa sijaitsevista ohjelmara
 
 Signaalin voimakkuus oli -53,5 dBm.
 
+<img width="1133" height="674" alt="image" src="https://github.com/user-attachments/assets/1d9676c8-3ce3-4727-aa55-91a80ef6baa5" />
+
+
 ### Aseman tunnistus
 
 Hain taajuuden short-wave.info palvelusta. 
